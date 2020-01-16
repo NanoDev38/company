@@ -1,0 +1,298 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/css.css" type="text/css" rel="stylesheet" />
+        <link href="css/design.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        
+        <style>
+        @import url(https://fonts.googleapis.com/css?family=Quicksand);
+        body, html {
+            height: 100%;
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+        
+        .fit{
+            background-image: url("img/cover.png");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            color: #fff;
+            font-size: 55px;
+            font-family:'Quicksand', sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+        .fit .inner{
+            position: absolute;
+            width: 60%;
+            transform: translate(-50%,50%);
+            top: 10%;
+            left : 50%;
+        }
+        .fit .inner i{
+            align-content: center;
+            display: inline-block;
+            font-size: 25px;
+        }
+        .font{
+            color: #fff;
+            font-size: 25px;
+            font-family:'Quicksand', sans-serif;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .aboutus{
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: cover; 
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="fit">
+            <div class="inner">
+                <div class="inner">
+                    Welcome To Our Homepage
+                    <hr>
+                    <div class="font">
+                        This Website Is In Progress
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--BODY-->
+
+        <div class="row" id="latest_product">
+            <div class = "feature" >
+                <h1 style="font-family: 'Viga', sans-serif; color: rgb(0, 0, 0);" >Latest Product</h1>
+            </div>
+
+        </div>
+        <div class="column">
+            <div class="gallery">
+                <a target="_blank" href="akbar/converse.jpg">
+                    <img src="img/converse.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Sepatu Converse</div>
+            </div>
+        </div>
+        <div class="column">          
+            <div class="gallery">
+                <a target="_blank" href="akbar/nike2.jpg">
+                    <img src="img/nike2.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Sepatu Nike</div>
+            </div>
+        </div>
+        <div class="column">         
+            <div class="gallery">
+                <a target="_blank" href="akbar/vans2.jpg">
+                    <img src="img/vans2.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Sepatu Vans</div>
+            </div>
+        </div>   
+        <div class="row3">
+            <div class = "feature" style="background-color:rgb(67,174,255);" id="benefit">
+                <h1 style="font-family: 'Viga', sans-serif; color: white;">BENEFIT</h1>
+            </div>
+        </div>
+        <div class="row2">
+                <div class="container">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-shield-alt" style="color: white;"></i></div>
+                        <div class="content" style="font-family: 'Roboto', sans-serif; font-size: 17px;">
+                            <h3 style="font-family: 'Viga', sans-serif;">Tahan Lama</h3>
+                            ketahanan yang sangat lama, terbuat dari bahan bahan yang berkualitas.
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-award" style="color: white;"></i></div>
+                        <div class="content" style="font-family: 'Roboto', sans-serif; font-size: 17px;">
+                            <h3 style="font-family: 'Viga', sans-serif;">kualitas bagus</h3>
+                            selain dari ketahan kualitas juga bagus dibanding sepatu yang lain.
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-smile-beam" style="color: white;"></i></div>
+                        <div class="content" style="font-family: 'Roboto', sans-serif; font-size: 17px;">
+                            <h3 style="font-family: 'Viga', sans-serif;">Nyaman Dipakai</h3>
+                            bahan bahan yang dipakai saat dibuat juga di pertimbangkan nyaman untuk penggunanya.
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row2" style="background: rgb(241, 241, 241)">
+            <div class = "feature" style="background-color:rgb(67,174,255);" id="product">
+                <h1 style="font-family: 'Viga', sans-serif; color: white;">Product</h1>
+            </div><br><br><br>
+            <div class="container_porto">
+                <ul style="background: rgb(241, 241, 241);"><br>
+                    <li class="button" data-filter="all">all</li>
+                    <li class="button" data-filter="item1">Converse</li>
+                    <li class="button" data-filter="item2">Nike</li>
+                    <li class="button" data-filter="item3">Vans</li>
+                    <div style="clear: both;"></div>
+                </ul>
+                <div class="column2">
+                    <div class="box_filters filter item1">
+                        <div class="box_hover">
+                            <div class="content_hover">
+                                <div>
+                                    <h2>Converse</h2>
+                                    <p>Dengan tampilan yang elegan untuk pria, sepatu ini cocok untuk berpergian</p>
+                                </div>
+                            </div>
+                            <img src="img/converse.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="box_filters filter item2">
+                        <div class="box_hover">
+                            <div class="content_hover">
+                                <div>
+                                    <h2>Nike</h2>
+                                    <p>Sepatu yang cocok dipakai saat ingin berolahraga</p>
+                                </div>
+                            </div>
+                            <img src="img/nike.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="box_filters filter item3">
+                        <div class="box_hover">
+                            <div class="content_hover">
+                                <div>
+                                    <h2>Vans</h2>
+                                    <p>Terlihat stylish dan bagus, sepatu ini sebenarnya cukup flexible untuk kegiatan apapun</p>
+                                </div>
+                            </div>
+                            <img src="img/vans.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row3">
+            <div class = "feature" style="background-color:rgb(67,174,255);" id="location">
+                <h1 style="font-family: 'Viga', sans-serif; color: white;">Our Location</h1>
+            </div>
+        </div><br>
+
+        <div class="row2">
+            <center>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.160747989666!2d106.80463081477053!3d-6.50132479529716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c22d07f3e1f5%3A0x29e4c98f218efaff!2sJl.+Bojong+Depok+Baru+II%2C+Sukahati%2C+Cibinong%2C+Bogor%2C+Jawa+Barat+16913!5e0!3m2!1sid!2sid!4v1558272527871!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </center>
+        </div><br>
+
+        <!-- <div class="row3">
+            <div class = "feature_contact" style="background-color:rgb(67,174,255);" id="subscribe">
+                <div style="float: left; padding: 0px 50px;">
+                    <h1 style="font-family: 'Viga', sans-serif; color: white;">
+                        Subscribe To Our NewsLetter
+                    </h1>
+                    <span class="fas fa-envelope-open" style="font-size:90px;color: aliceblue"></span>
+                </div>
+                <div class="boxed" style="float: right;">
+                    <form name="email_form" action="send.jsp">
+                        <div class="inputbox">
+                            <input style="font-family:'Quicksand', sans-serif;" type="email" name="email" required="">
+                            <label>Email</label>
+                        </div>
+                        <button type="submit" name="" value="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="navbar">
+            <ul>
+                <a href="dash_login.jsp"><i class="fas fa-shoe-prints" style="font-size:45px;color: rgb(121, 188, 247)"></i></a>
+                <label><span style="color: rgb(121, 188, 247);">myshoes</span>.com</label>
+                <li style="margin: 0 10px; transition: 0.5;"><a class="active" href="#subscribe">Contact Us</a></li>
+                <li style="margin: 0 10px; transition: 0.5;"><a href="#location">Location</a></li>
+                <li style="margin: 0 10px; transition: 0.5;"><a href="#product">Product</a></li>
+                <li style="margin: 0 10px; transition: 0.5;"><a href="#benefit">Benefit</a></li>
+                <li style="margin: 0 10px; transition: 0.5;"><a href="#latest_product">Latest Product</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section one">
+                    <h1 class="logo-text"><i class="fas fa-shoe-prints" style="font-size:45px;color: rgb(121, 188, 247)"></i><span>myshoes</span>.com</h1>
+                    <p>
+                        website yang kami jual berupa company profile dalam kategori periklankan, di dunia internet melalui website. dengan adanya ini para usahawan akan lebih mudah dikenal di berbagai daerah.		
+                    </p>
+                </div>
+
+                <div class="footer-section two">
+                    <h2>Contact Us</h2>
+                    <br>
+                    <i class="fas fa-envelope" style="font-size:25px;color: rgb(121, 188, 247)"></i><label>&nbsp myshoes@gmail.com</label><br><br>
+                    <i class="fas fa-phone" style="font-size:25px;color: rgb(121, 188, 247)"></i><label>&nbsp 08112121221</label><br><br>
+                    <i class="fas fa-home" style="font-size:25px;color: rgb(121, 188, 247)"></i><label>&nbsp Cibinong, Bogor, Jawa Barat 16913</label>
+                </div>
+
+                <div class="footer-section three">
+                    <h2>&nbsp&nbsp Follow us on Social Media: </h2>
+                    <br>
+                    <div class="sosmed">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                &copy; myshoes.com | Right and reserved.
+            </div>
+        </div>	
+        <!--SCRIPT-->
+
+        <script>
+            function success(){
+                var x = document.forms["email_form"]["email"].value;
+                    if (x != "") {
+                    alert("Sukses");
+                    return false;
+                }
+            }
+        </script>
+        <!--SCRIPT PORTO-->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".button").click(function(){
+                    var value = $(this).attr("data-filter");
+
+                    if(value == "all"){
+                    $(".filter").show("3");
+                    }else{
+                    $(".filter").not("."+value).hide("2");
+                    $(".filter").filter("."+value).show("1");
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>

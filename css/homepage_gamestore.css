@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Viga);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Cabin&display=swap);
+/* all navbar content*/
+.navbars .text{
+  transition: 0.5s;
+}
+.navbars .text .link{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  transition: 0.5s;
+  font-family:'Quicksand', sans-serif;
+}
+.navbars .text:hover .link{
+  transform: scale(1);
+  opacity: .2;
+  color: rgb(36, 167, 219);
+  filter: blur(0.5px);
+}
+.navbars .text .link:hover {
+  transform: scale(1.5);
+  opacity: 1;
+  filter: blur(0);
+}
+.navbars .text .link {
+color: black;
+text-align: center;
+text-decoration: none;
+}
+/* ------*/
